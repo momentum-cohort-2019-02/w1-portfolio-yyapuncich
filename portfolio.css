@@ -2,6 +2,7 @@
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   border: 1px solid grey;
 }
 
@@ -21,43 +22,80 @@
   padding: 2rem;
 }
 
+.nav-menu a:visited {
+  color: red;
+}
+
 .home-button {
-  padding: 0 1rem 1rem 0;
+  padding: 0 1rem 0 0;
 }
 
 .project-button {
-  padding: 0 1rem 1rem 0;
+  padding: 0 1rem 0 0;
 }
 
 .resume-button {
-  padding: 0 1rem 1rem 0;
+
 }
 
-.about-me {
+/* .about-me {
   display: flex;
-  padding: 1rem;
-}
+  padding: 2rem;
+  align-items: top;
+} */
 
 .intro {
-
+  display: flex;
+  flex-wrap: wrap;
+  font-
+  padding: 1rem;;
+  text-align: center;
+  /* justify-content: right; */
+  /* align-content: right; */
 }
 
-.pic-container {
-
+.intro-paragraph {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .yifaa-pic {
-  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
 }
 
 .yifaa-footer {
-
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .social {
+  display: flex;
+  align-items: center;
 
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
 }
 
 .yifaa-address {
 
 }
+
+.contact-header {
+ line-height: 2rem;
+ font-style: normal;
+}
+
+.address-info {
+  /* line-height: 1.25rem; */
+  /* padding: 0 0 0 1rem; */
+}
+
