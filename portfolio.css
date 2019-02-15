@@ -1,0 +1,63 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+}
+
+.name-header {
+  display: flex;
+  background-color: #EEF3F5;
+  font-family: 'Roboto';
+  justify-content: center;
+  align-content: center;
+  padding: 2rem 0 4rem 0;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.home-button {
+  padding: 0 1rem 1rem 0;
+}
+
+.project-button {
+  padding: 0 1rem 1rem 0;
+}
+
+.resume-button {
+  padding: 0 1rem 1rem 0;
+}
+
+.about-me {
+  display: flex;
+  padding: 1rem;
+}
+
+.intro {
+
+}
+
+.pic-container {
+
+}
+
+.yifaa-pic {
+  width: 200px;
+}
+
+.yifaa-footer {
+
+}
+
+.social {
+
+}
+
+.yifaa-address {
+
+}
