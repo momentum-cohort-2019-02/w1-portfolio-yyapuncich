@@ -2,16 +2,16 @@
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 .name-header {
+  color: #1A6B7F;
   display: flex;
-  background-color: #EEF3F5;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-shadow: #1A6B7F;
   justify-content: center;
-  align-content: center;
   padding: 2rem 0 4rem 0;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .nav-menu a:visited {
-  color: red;
+  color: #1A6B7F;
 }
 
 .home-button {
@@ -38,55 +38,53 @@
 
 }
 
-/* .about-me {
-  display: flex;
+.about-me {
+  /* display: block; */
+  
   padding: 2rem;
-  align-items: top;
-} */
+  justify-content: center;
+}
 
 .intro {
-  display: flex;
-  flex-wrap: wrap;
-  font-
-  padding: 1rem;;
+  display: block;
+  padding: 1rem;
   text-align: center;
-  /* justify-content: right; */
-  /* align-content: right; */
+}
+
+.job-title {
+  /* text-align: left; */
+  padding: 1rem 0 1rem 0;
 }
 
 .intro-paragraph {
-  display: flex;
-  flex-wrap: wrap;
+
 }
 
 .yifaa-pic {
-  display: flex;
-  flex-wrap: wrap;
-  height: 200px;
+  height: 300px;
 }
 
 .yifaa-footer {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
-  align-content: center;
+  /* align-content: center; */
+  align-items: top;
 }
 
-.social {
-  display: flex;
-  align-items: center;
-
+.social-icons a:visited {
+  color: #1A6B7F
 }
 
 .social-icons {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: right;
   list-style-type: none;
 }
 
 .yifaa-address {
-
+  font-style: normal;
 }
 
 .contact-header {
