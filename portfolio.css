@@ -2,14 +2,14 @@
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
-  /* border: 1px solid grey; */
+  /* border: 1px dashed purple; */
 }
 
 .name-header {
   display: flex;
   font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
-  text-shadow: 2px solid #1A6B7F;
+  /* text-shadow: 2px #1A6B7F; */
   justify-content: center;
   padding: 5rem 0 5rem 0;
 }
@@ -21,7 +21,7 @@
   padding: 2rem;
 }
 
-.nav-menu a:visited {
+.nav-menu a, a:visited {
   color: #1A6B7F;
 }
 
@@ -41,7 +41,7 @@
 
 .about-me {
   padding: 2rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .intro {
@@ -98,3 +98,66 @@
 
 /*Start Project page code here*/
 
+.projects {
+  display: block;
+  padding: 2rem;
+  text-align: center;
+}
+
+.lazy-project {
+
+}
+
+.dog-project {
+
+}
+
+.project-photo {
+  width: 90%;
+  border: 4px solid black;
+}
+
+.lazy-site-photo {
+
+}
+
+.dog-site-photo {
+
+}
+
+.project-title {
+  text-align: left;
+  padding: 2rem 0 2rem 0;
+}
+
+.project-links {
+  display: flex;
+  list-style-type: none;
+  line-height: 1.5rem;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.lazy-code-button {
+  padding: .25rem;
+  margin: 1rem;
+  /* border: 1px solid #1A6B7F; */
+}
+
+.lazy-site-button {
+  padding: .25rem;
+  margin: 1rem;
+  /* border: 1px solid #1A6B7F; */
+}
+
+.dog-code-button {
+  padding: .25rem;
+  margin: 1rem;
+  /* border: 1px solid #1A6B7F; */
+}
+
+.dog-site-button {
+  padding: .25rem;
+  margin: 1rem;
+  /* border: 1px solid #1A6B7F; */
+}
