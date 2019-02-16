@@ -6,13 +6,12 @@
 }
 
 .name-header {
-  color: #1A6B7F;
   display: flex;
   font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
-  text-shadow: #1A6B7F;
+  text-shadow: 2px solid #1A6B7F;
   justify-content: center;
-  padding: 2rem 0 4rem 0;
+  padding: 5rem 0 5rem 0;
 }
 
 .nav-menu {
@@ -38,9 +37,9 @@
 
 }
 
+/*index page styling below*/
+
 .about-me {
-  /* display: block; */
-  
   padding: 2rem;
   justify-content: center;
 }
@@ -52,8 +51,7 @@
 }
 
 .job-title {
-  /* text-align: left; */
-  padding: 1rem 0 1rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .intro-paragraph {
@@ -62,11 +60,12 @@
 
 .yifaa-pic {
   height: 300px;
+  border: .25rem ridge grey;
 }
 
 .yifaa-footer {
   display: flex;
-  padding: 1rem;
+  padding: 5rem 1rem 5rem 1rem;
   justify-content: space-between;
   /* align-content: center; */
   align-items: top;
@@ -96,4 +95,6 @@
   /* line-height: 1.25rem; */
   /* padding: 0 0 0 1rem; */
 }
+
+/*Start Project page code here*/
 
