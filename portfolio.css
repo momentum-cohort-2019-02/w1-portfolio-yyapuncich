@@ -50,7 +50,7 @@
   text-align: center;
 }
 
-.job-title {
+.current-title {
   padding: 2rem 0 2rem 0;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .yifaa-pic {
-  height: 300px;
+  width: 70%;
   border: .25rem ridge grey;
 }
 
@@ -160,4 +160,54 @@
   padding: .25rem;
   margin: 1rem;
   /* border: 1px solid #1A6B7F; */
+}
+
+/* Resume styling below */
+
+.resume {
+  padding: 2rem;
+  line-height: 1.05rem;
+}
+
+.resume-title {
+  text-decoration-line: underline;
+  padding: 0 0 1rem 0;
+}
+
+.skills-section p {
+  padding: 1rem;
+  margin: 0 0 2rem 0;
+  border: 2px solid black;
+}
+
+.jobs-section {
+ 
+}
+
+.job {
+  padding: 1rem;
+  margin: 0 0 .5rem 0;
+  border: 2px solid black;
+}
+
+.employer {
+
+}
+
+.job-title {
+
+}
+
+.date {
+
+}
+
+.job-description {
+
+}
+
+.references {
+  padding: 4rem 0 2rem 0;
+  font-size: .8rem;
+  font-style: italic;
 }
