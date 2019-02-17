@@ -8,6 +8,7 @@
 .yifaa-name {
   font-family: 'Rubik', sans-serif;
   font-size: 3rem;
+  letter-spacing: 1.5rem;
 }
 
 .name-header {
@@ -25,7 +26,8 @@
   border-bottom: 1px solid black;
 }
 
-.nav-menu a, a:visited {
+.nav-menu a,
+a:visited {
   color: #1A6B7F;
 }
 
@@ -37,9 +39,7 @@
   padding: 0 1rem 0 0;
 }
 
-.resume-button {
-
-}
+.resume-button {}
 
 /*index page styling below*/
 
@@ -48,14 +48,15 @@
   /* justify-content: center; */
 }
 
-.intro {
-  display: block;
-  /* padding: 1rem; */
-  /* text-align: center; */
+.current-title {
+  padding: 0 0 4rem 0;
 }
 
-.current-title {
-  padding: 0 0 2rem 0;
+.intro {
+  display: inline-block;
+  text-align: center;
+  /* padding: 1rem; */
+  /* text-align: center; */
 }
 
 .intro-paragraph {
@@ -63,7 +64,8 @@
 }
 
 .yifaa-pic {
-  width: 80%;
+  width: 75%;
+  max-width: 350px;
   border: 2px solid black;
 }
 
@@ -92,8 +94,8 @@
 }
 
 .contact-header {
- line-height: 2rem;
- font-style: normal;
+  line-height: 2rem;
+  font-style: normal;
 }
 
 .address-info {
@@ -109,26 +111,18 @@
   text-align: center;
 }
 
-.lazy-project {
+.lazy-project {}
 
-}
-
-.dog-project {
-
-}
+.dog-project {}
 
 .project-photo {
   width: 90%;
   border: 2px solid black;
 }
 
-.lazy-site-photo {
+.lazy-site-photo {}
 
-}
-
-.dog-site-photo {
-
-}
+.dog-site-photo {}
 
 .project-title {
   text-align: left;
@@ -174,18 +168,16 @@
 }
 
 .resume-title {
-  padding: 0 0 1rem 0;
+  padding: 0 0 4rem 0;
 }
 
 .skills-section p {
   padding: 1rem;
-  margin: 0 0 2rem 0;
+  margin: 0 0 4rem 0;
   border: 2px solid black;
 }
 
-.jobs-section {
- 
-}
+.jobs-section {}
 
 .job {
   padding: 1rem;
@@ -209,8 +201,26 @@
   margin-bottom: 1rem;
 }
 
-.job-description {
+.education-section {}
 
+.education {
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  border: 2px solid black;
+}
+
+.school {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.degree-title {
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.grad-date {
+  line-height: 2rem;
 }
 
 .references {
@@ -219,6 +229,216 @@
   font-style: italic;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024) {
-  
+
+
+@media screen and (min-width: 768px) {
+  /* tablet size */
+
+
+  .yifaa-name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+  }
+
+  .name-header {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 4rem 0;
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 4rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid black;
+  }
+
+  .nav-menu a,
+  a:visited {
+    color: #1A6B7F;
+  }
+
+  .home-button {
+    padding: 0 1rem 0 0;
+  }
+
+  .project-button {
+    padding: 0 1rem 0 0;
+  }
+
+  .resume-button {}
+
+  /*index page styling below*/
+
+  .about-me {
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding: 0 2rem 2rem 2rem;
+    justify-content: center;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 1rem; */
+    /* text-align: center; */
+  }
+
+  .current-title {
+    padding: 0 0 4rem 0;
+  }
+
+  .intro-paragraph {
+    display: flex;
+    max-width: 450px;
+    padding: 0 0 2rem 2rem;
+  }
+
+  .yifaa-pic {
+    display: flex;
+    margin-left: 2rem;
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
+  }
+
+  .yifaa-footer {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    padding: 5rem 1rem 5rem 1rem;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: top;
+  }
+
+  .social-icons a:visited {
+    color: #1A6B7F
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    list-style-type: none;
+  }
+
+  .yifaa-address {
+    font-style: normal;
+  }
+
+  .contact-header {
+    line-height: 2rem;
+    font-style: normal;
+  }
+
+  .address-info {}
+
+  /*Start Project page code here*/
+
+  .projects {
+    display: block;
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+  }
+
+  .lazy-project {}
+
+  .dog-project {}
+
+  .project-photo {
+    width: 90%;
+    border: 2px solid black;
+  }
+
+  .lazy-site-photo {}
+
+  .dog-site-photo {}
+
+  .project-title {
+    text-align: left;
+    padding: 0 0 4rem 0;
+  }
+
+  .project-links {
+    display: flex;
+    list-style-type: none;
+    line-height: 1.5rem;
+    justify-content: center;
+    margin: 2rem 0 3rem 0;
+  }
+
+  .lazy-code-button {
+    padding: .25rem;
+    margin: 1rem;
+    /* border: 1px solid #1A6B7F; */
+  }
+
+  .lazy-site-button {
+    padding: .25rem;
+    margin: 1rem;
+    /* border: 1px solid #1A6B7F; */
+  }
+
+  .dog-code-button {
+    padding: .25rem;
+    margin: 1rem;
+    /* border: 1px solid #1A6B7F; */
+  }
+
+  .dog-site-button {
+    padding: .25rem;
+    margin: 1rem;
+    /* border: 1px solid #1A6B7F; */
+  }
+
+  /* Resume styling below */
+
+  .resume {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .resume-title {
+    padding: 0 0 4rem 0;
+  }
+
+  .skills-section p {
+    padding: 1rem;
+    margin: 0 2rem 4rem 2rem;
+    border: 2px solid black;
+  }
+
+  .jobs-section {}
+
+  .job {
+    padding: 1rem;
+    margin: 0 2rem 1rem 2rem;
+    border: 2px solid black;
+  }
+
+  .employer {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .job-title {
+    font-style: italic;
+    line-height: 2rem;
+  }
+
+  .date {
+    line-height: 2rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+  }
+
+  .job-description {}
+
+  .references {
+    padding: 4rem 0 2rem 0;
+    font-size: .8rem;
+    font-style: italic;
+  }
 }
