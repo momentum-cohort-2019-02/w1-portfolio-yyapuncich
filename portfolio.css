@@ -2,19 +2,32 @@
   font-family: 'Oxygen', 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
-  /* border: 1px dashed purple; */
-}
-
-.yifaa-name {
-  font-family: 'Rubik', sans-serif;
-  font-size: 3rem;
-  letter-spacing: 1.5rem;
+  border: 1px dashed purple;
 }
 
 .name-header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 4rem 0 4rem 0;
+  align-items: center;
+}
+
+.yifaa-name {
+  display: flex;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.last-name {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 2rem;
+  line-height: 2rem;
+  padding-left: 2rem;
 }
 
 .nav-menu {
@@ -24,6 +37,7 @@
   padding: 4rem;
   margin-bottom: 4rem;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .nav-menu a,
@@ -53,10 +67,7 @@ a:visited {
 }
 
 .intro {
-  display: inline-block;
   text-align: center;
-  /* padding: 1rem; */
-  /* text-align: center; */
 }
 
 .intro-paragraph {
@@ -74,8 +85,9 @@ a:visited {
   display: flex;
   padding: 5rem 1rem 5rem 1rem;
   justify-content: space-between;
-  /* align-content: center; */
   align-items: top;
+  border-top: 1px solid black;
+  margin-top: 4rem;
 }
 
 .social-icons a:visited {
@@ -235,15 +247,29 @@ a:visited {
   /* tablet size */
 
 
-  .yifaa-name {
-    font-family: 'Rubik', sans-serif;
-    font-size: 3rem;
-  }
-
   .name-header {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding: 4rem 0 4rem 0;
+    align-items: center;
+  }
+  
+  .yifaa-name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .last-name {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
   }
 
   .nav-menu {
@@ -310,8 +336,9 @@ a:visited {
     display: flex;
     padding: 5rem 1rem 5rem 1rem;
     justify-content: space-between;
-    /* align-content: center; */
     align-items: top;
+    border-top: 1px solid black;
+    margin-top: 4rem;
   }
 
   .social-icons a:visited {
@@ -435,6 +462,27 @@ a:visited {
   }
 
   .job-description {}
+
+  .education-section {}
+
+  .education {
+    margin: 0 2rem 1rem 2rem;
+    border: 2px solid black;
+  }
+  
+  .school {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+  
+  .degree-title {
+    font-style: italic;
+    line-height: 2rem;
+  }
+  
+  .grad-date {
+    line-height: 2rem;
+  }
 
   .references {
     padding: 4rem 0 2rem 0;
