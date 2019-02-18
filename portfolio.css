@@ -2,7 +2,7 @@
   font-family: 'Oxygen', 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
-  border: 1px dashed purple;
+  /* border: 1px dashed purple; */
 }
 
 .name-header {
@@ -20,9 +20,11 @@
   font-size: 4rem;
   letter-spacing: 1.5rem;
   padding-left: 1.5rem;
+  text-shadow: -.3rem .3rem 0 rgba(26, 107, 127, 0.5);
 }
 
 .last-name {
+  color: #1A6B7F;
   text-align: center;
   font-family: 'Rubik', sans-serif;
   letter-spacing: 2rem;
@@ -33,11 +35,13 @@
 .nav-menu {
   display: flex;
   list-style-type: none;
-  justify-content: center;
+  justify-content: space-around;
   padding: 4rem;
   margin-bottom: 4rem;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
 }
 
 .nav-menu a,
@@ -46,14 +50,27 @@ a:visited {
 }
 
 .home-button {
-  padding: 0 1rem 0 0;
+  padding: .5rem 1rem .5rem 1rem;
+  margin: 0 1rem 0 0;
+  background-color: rgb(133, 156, 163, 0.5);
+  border-radius: .25rem;
+  border: 1px solid black;
 }
 
 .project-button {
-  padding: 0 1rem 0 0;
+  padding: .5rem 1rem .5rem 1rem;
+  margin: 0 1rem 0 0;
+  background-color: rgb(133, 156, 163, 0.5);
+  border-radius: .25rem;
+  border: 1px solid black;
 }
 
-.resume-button {}
+.resume-button {
+  padding: .5rem 1rem .5rem 1rem;
+  background-color: rgb(133, 156, 163, 0.5);
+  border-radius: .25rem;
+  border: 1px solid black;
+}
 
 /*index page styling below*/
 
@@ -88,10 +105,11 @@ a:visited {
   align-items: top;
   border-top: 1px solid black;
   margin-top: 4rem;
+  background: linear-gradient(rgba(238, 220, 245, 0.25), rgba(26, 107, 127, 0.7));
 }
 
 .social-icons a:visited {
-  color: #1A6B7F
+  color: #1A6B7F;
 }
 
 .social-icons {
@@ -262,9 +280,11 @@ a:visited {
     font-size: 4rem;
     letter-spacing: 1.5rem;
     padding-left: 1.5rem;
+    text-shadow: -.3rem .3rem 0 rgba(26, 107, 127, 0.5);
   }
   
   .last-name {
+    color: #1A6B7F;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     letter-spacing: 2rem;
@@ -279,22 +299,38 @@ a:visited {
     padding: 4rem;
     margin-bottom: 4rem;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
   }
-
+  
   .nav-menu a,
   a:visited {
     color: #1A6B7F;
   }
-
+  
   .home-button {
-    padding: 0 1rem 0 0;
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0 8rem 0 0;
+    background-color: rgb(133, 156, 163, 0.5);
+    border-radius: .25rem;
+    border: 1px solid black;
   }
-
+  
   .project-button {
-    padding: 0 1rem 0 0;
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0 8rem 0 0;
+    background-color: rgb(133, 156, 163, 0.5);
+    border-radius: .25rem;
+    border: 1px solid black;
   }
-
-  .resume-button {}
+  
+  .resume-button {
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: rgb(133, 156, 163, 0.5);
+    border-radius: .25rem;
+    border: 1px solid black;
+  }
 
   /*index page styling below*/
 
@@ -341,8 +377,8 @@ a:visited {
     margin-top: 4rem;
   }
 
-  .social-icons a:visited {
-    color: #1A6B7F
+  .social-icons a, a:visited {
+    color: #1A6B7F;
   }
 
   .social-icons {
