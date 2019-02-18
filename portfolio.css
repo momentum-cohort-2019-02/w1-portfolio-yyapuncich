@@ -42,6 +42,7 @@
   border-top: 1px solid black;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
+  font-style: normal;
 }
 
 .nav-menu a,
@@ -105,7 +106,7 @@ a:visited {
   align-items: top;
   border-top: 1px solid black;
   margin-top: 4rem;
-  background: linear-gradient(rgba(238, 220, 245, 0.25), rgba(26, 107, 127, 0.7));
+  /* background: linear-gradient(rgba(247, 243, 248, 0), rgba(26, 107, 127, 0.7)); */
 }
 
 .social-icons a:visited {
@@ -231,7 +232,9 @@ a:visited {
   margin-bottom: 1rem;
 }
 
-.education-section {}
+.education-section {
+  padding-top: 3rem;\
+}
 
 .education {
   padding: 1rem;
@@ -414,6 +417,7 @@ a:visited {
   .project-photo {
     width: 90%;
     border: 2px solid black;
+    max-width: 970px;
   }
 
   .lazy-site-photo {}
@@ -499,7 +503,9 @@ a:visited {
 
   .job-description {}
 
-  .education-section {}
+  .education-section {
+    padding-top: 3rem;
+  }
 
   .education {
     margin: 0 2rem 1rem 2rem;
@@ -524,5 +530,42 @@ a:visited {
     padding: 4rem 0 2rem 0;
     font-size: .8rem;
     font-style: italic;
+  }
+}
+
+/*desktop style chang*/
+
+@media screen and (min-width: 1024px) {
+
+  * {
+    /* border: 1px dashed purple; */
+  }
+
+  /* WOULD LIKE TO GET LAST NAME TO GET IN LINE WITH FIRST HERE, BUT NOT WORKING*/
+  .name-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0 4rem 0;
+    /* align-items: center; */
+  }
+  
+  .yifaa-name {
+    /* display: flex;
+    flex-wrap: wrap; */
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+    padding-left: 1.5rem;
+    text-shadow: -.3rem .3rem 0 rgba(26, 107, 127, 0.5);
+  }
+  
+  .last-name {
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: #1A6B7F;
+    /* text-align: center; */
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2rem;
+    padding-left: 2rem;
   }
 }
